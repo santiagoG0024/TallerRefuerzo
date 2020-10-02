@@ -13,23 +13,48 @@
         <hr>
     </header>  
 
-    <main>
+    <main class="bg-dark text-white">
 
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-4">
                     <form action="">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email">
                         </div>
-   
+                        <div class="form-group">
+                            <label for="cedula">Cedula</label>
+                            <input type="number" class="form-control" id="cedula">
+                        </div>
+                        <div class="form-group">
+                            <label for="nombre">Name</label>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Surname</label>
+                            <input type="text" class="form-control" id="surname">
+                        </div>
+                        <div class="form-group">
+                            <label for="edad">Age</label>
+                            <input type="number" class="form-control" id="edad">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Phone</label>
+                            <input type="number" class="form-control" id="telefono">
+                        </div>
+                        <div class="form-group">
+                            <label for="direccion">Direction</label>
+                            <input type="text" class="form-control" id="direccion">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">register</button>
+                    
                     </form>
                 </div>
             </div>
 
         </div>
+
 
     </main>
 
