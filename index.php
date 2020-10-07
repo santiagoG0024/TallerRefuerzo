@@ -18,36 +18,36 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-4">
-                    <form action="">
+                    <form action="AgregarDatos.php" method="POST">
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email">
+                            <input type="email" class="form-control" id="email" name="email">
                         </div>
                         <div class="form-group">
                             <label for="cedula">Cedula</label>
-                            <input type="number" class="form-control" id="cedula">
+                            <input type="number" class="form-control" id="cedula" name="cedula">
                         </div>
                         <div class="form-group">
                             <label for="nombre">Name</label>
-                            <input type="text" class="form-control" id="nombre">
+                            <input type="text" class="form-control" id="nombre" name="nombre">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Surname</label>
-                            <input type="text" class="form-control" id="surname">
+                            <input type="text" class="form-control" id="surname" name="apellido">
                         </div>
                         <div class="form-group">
                             <label for="edad">Age</label>
-                            <input type="number" class="form-control" id="edad">
+                            <input type="number" class="form-control" id="edad" name="edad">
                         </div>
                         <div class="form-group">
                             <label for="telefono">Phone</label>
-                            <input type="number" class="form-control" id="telefono">
+                            <input type="number" class="form-control" id="telefono" name="telefono">
                         </div>
                         <div class="form-group">
                             <label for="direccion">Direction</label>
-                            <input type="text" class="form-control" id="direccion">
+                            <input type="text" class="form-control" id="direccion" name="direccion">
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">register</button>
+                        <button type="submit" class="btn btn-primary btn-block" name="botonRegistro">register</button>
                     
                     </form>
                 </div>
